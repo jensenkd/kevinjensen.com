@@ -1,0 +1,196 @@
+
+#home-screen
+{
+    position: absolute;
+    z-index: 8;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    min-height: 100% !important;
+}
+
+#home-screen .content-block
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home_title{font-size:55px; color:#333!important; text-align:center; padding-bottom:20px; /*opacity:0;*/ }
+.home_title span{color:#333!important; font-weight:700; text-transform:uppercase;}
+
+.slider{ background:rgba(0,0,0,.2); /*opacity:0;*/ margin-bottom:40px;}
+
+#home-screen .content-block img.logo
+{
+    width: 260px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    /*opacity: 0;*/
+}
+
+#home-screen .content-block .slide
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /*opacity: 0;*/
+}
+
+#home-screen .content-block h1
+{
+	font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: auto;
+    margin: 70px auto;
+    text-align: center;
+    /*opacity: 0;*/
+    color: #fff;
+	text-transform:capitalize;
+	letter-spacing:2px;
+}
+
+#home-screen .content-block h1 span{    color: #228482;}
+
+#home-screen .content-block p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: auto;
+    padding: 30px 0px 50px 0px;
+    letter-spacing: 2px;
+    /*opacity: 0;*/
+    color: #fff;
+}
+
+.arrow-wrap{    /*opacity: 0;*/}
+
+.open-overlay i{
+    font-size: 70px;
+    line-height:86px;
+    z-index: 2;
+    margin: 0 auto;
+    cursor: inherit;
+    -webkit-transition: all .6s ease 0s;
+       -moz-transition: all .6s ease 0s;
+            transition: all .6s ease 0s;
+    color: inherit;
+    background: rgba(255,255,255,.0);
+	text-shadow: 0px 4px 2px rgba(51,51,51,.5);
+	
+	-webkit-animation-name: hop;
+    -webkit-animation-duration:.5s;
+     -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:0s;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-name: hop;
+    -moz-animation-duration:.5s;
+     -moz-animation-direction:alternate;
+    -moz-animation-timing-function:linear;
+    -moz-animation-delay:0s;
+    -moz-animation-iteration-count:infinite;
+}
+
+.open-overlay
+{
+/*    width: 80px;
+    height: 80px;*/
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-transition: all .6s ease 0s;
+       -moz-transition: all .6s ease 0s;
+            transition: all .6s ease 0s;
+    text-align: center;
+    color: #fff;
+/*    border: solid 4px #fff;
+	border-radius:40px;*/
+}
+
+.open-overlay:hover{color:#fff;}
+.open-overlay:active, .open-overlay:link{ color:#fff;}
+
+
+@-webkit-keyframes hop {
+       from{
+        -webkit-transform: translate(0px,0px);
+        }
+
+
+         to {
+        -webkit-transform: translate(0px,-10px);
+        }  
+      }
+
+@-moz-keyframes hop {
+       from{
+        -moz-transform: translate(0px,0px);
+        }
+
+
+         to {
+        -moz-transform: translate(0px,-10px);
+        }  
+      }
+	  
+@-ms-keyframes hop {
+       from{
+        -ms-transform: translate(0px,0px);
+        }
+
+
+         to {
+        -ms-transform: translate(0px,-10px);
+        }  
+      }
+
+
+/** 10. MEDIA QUERIES
+ *****************************************************************/
+
+@media only screen and (max-height: 800px)
+{
+    #home-screen .content-block h1 {font-size: 60px; margin:70px auto;}
+}
+
+@media only screen and (max-height: 630px)
+{
+   
+    #home-screen .content-block h1{font-size: 55px; margin:40px auto;}
+}
+
+@media only screen and (max-height: 320px)
+{
+	#home-screen .content-block h1{margin:28px auto;}
+}
+
+@media only screen and (max-width: 768px), only screen and (max-height: 510px)
+{
+    
+    #home-screen .content-block h1{font-size: 45px; margin:35px auto;}
+
+}
+
+@media only screen and (max-width: 480px), only screen and (max-height: 410px)
+{
+    #home-screen .content-block h1{font-size: 30px; margin:35px auto;}
+}
+
+@media only screen and (max-width: 400px), only screen and (max-height: 310px)
+{
+    #home-screen .content-block h1{font-size: 30px;margin-bottom: 30px;}
+}
+
+@media only screen and (max-width: 355px) ,only screen and (max-height: 280px)
+{
+    #home-screen .content-block h1{font-size: 28px; margin-bottom: 30px;}
+}
+

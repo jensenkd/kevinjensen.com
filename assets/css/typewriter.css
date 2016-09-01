@@ -1,0 +1,101 @@
+
+/* Style.css
+==============================*/
+
+body{font-family: 'Raleway', sans-serif;}
+
+.bgimg {
+background: url(../img/homebg.jpg) center center;
+position: fixed;
+height: 100%;
+width: 100%;
+z-index: 7;
+top: 0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.pattern_bg {
+	background: url(../img/patterns/01.png) repeat fixed;
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:7;
+	top:0;
+}
+
+
+
+/* Home Section */	
+
+
+#home p{ color:#333;}
+
+.title_top{ padding-top:10%;}
+.home_title{font-size:55px; color:#ffffff; }
+.home_title span{color:#eb4f43; font-weight:900;}
+.home_title .bold{ font-weight:700; color:#fff;}
+.home_title_type span{color:#eb4f43;}
+.home_title_type { color:#fff; letter-spacing:1px; font-weight:600;}
+
+/* // Home Section First Menu Style */
+.fullBg { position:absolute;	z-index:0; }
+#home .fullBg{ position:fixed; z-index:1;}
+#mainheader .menu-inner, #header .menu-inner{background:#eb4f43;}
+.header_details{ position:absolute; margin-top:20px; top:0; z-index:999;}
+/*#home .header_icons{ float:right;}*/
+.circle { background-color: rgba(255,255,255,0.3); }
+.circle span:first-child, .count-heart span:first-child {padding-top: 25px;display: inline-block;}
+.homebg .circle {
+background: rgba(252, 249, 249, 0.09);
+}
+
+.center
+{
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	width:100%;
+	margin:auto;
+	height:25%;
+	position:absolute;
+	z-index:99;
+}
+
+.main-nav ul li a{ font-family: 'Open Sans', sans-serif; text-transform:capitalize; color:#fff; letter-spacing:0; color:#fff;}
+.right_content .header_icons{ float:left;}
+
+
+/* Spmenu Section */	
+.spmenu span {color: #ebb2ad;}
+
+/* Home Section
+==============================*/
+
+
+
+/* Footer Section
+==============================*/
+
+.copyright{color: #ffe5e5;}
+
+/* // Footer Section
+==============================*/
+
+
+@media (max-width: 767px) and (orientation : landscape) {
+.home_title, .home_title_type{ font-size:30px!important;}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.home_title{ font-size:24px;}
+
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
+.home_title{ font-size:24px;}
+
+}

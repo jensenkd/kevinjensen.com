@@ -1,0 +1,138 @@
+
+
+/* Dark Version Changes */
+
+/* PreLoader Section
+==============================*/
+
+#jpreOverlay, #jSplash{ background:#454545;}
+#jprePercentage{ color:#fff;}
+
+/* // PreLoader Section
+==============================*/
+
+
+/* General Section
+==============================*/
+.content_overlay, .portfolio{background:rgba(0,0,0,0.9);}
+
+.sub-shadow {color: rgba(68, 68, 68, .7)!important;}
+
+h1{color:#f9f9f9;}
+h2{ color:#d8d8d8;}
+.subtitle, .skill-title{ color:#fff;}
+.team .subtitle {color:#333;}
+h4{ color:#b8b8b8;}
+.subtitle {color: #fff;}
+
+/* General Section
+==============================*/
+
+/* Home Section
+==============================*/
+
+/* About Section
+==============================*/
+
+.pinfo .pright, span a, a{ color:#818181;}
+.btn-3e i{ color:rgba(0,0,0,.2);}
+
+blockquote {
+color:#818181;
+border-left: 5px solid #F9AB95;
+}
+.dquote{ color:#F9AB95;}
+
+/* // About Section
+==============================*/
+
+/* Skills Section
+==============================*/
+
+.percent{ color:#e4e4e4;}
+.progress_bars li .bar-wrap{ background:#858585;}
+.progress_heading{ color:#c8c8c8;}
+
+/* // Skills Section
+==============================*/
+
+/* Resume Section
+==============================*/
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+color: #c8c8c8;
+}
+.cbp_tmicon i {color: #fff;}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child, .cbp_tmtimeline > li .cbp_tmtime span:last-child {
+color: #ADAEAE;
+font-weight: 400;
+}
+
+/* // Resume Section
+==============================*/
+
+/* Portfolio Section
+==============================*/
+
+.port-title h1{ color:#333;}
+.portfolio-grid li:hover .port-caption {color: #fff;}
+.port-caption{ font-size:14px; color: #fff; font-weight:400;}
+#filters li{ font-weight:400;}
+
+/*//  Portfolio Section
+==============================*/
+
+
+/* Services Section
+==============================*/
+
+.service-circle{color:#fff;}
+.service-shadow {color: rgba(255,255,255,0.04)!important;}
+
+/* // Services Section
+==============================*/
+
+
+/* Testimonials Section
+==============================*/
+
+.author, .author1, .t1author{ color:#fff;}
+.author span, .author1 span, .t1author span{ color:#c3c3c3;}
+.dlink{ color:#c4c4c4;}
+
+/* // Testimonials Section
+==============================*/
+
+/* Clients Section
+==============================*/
+
+.cbp-ig-grid li {background-color: rgba(255,255,255,1);}
+.cbp-ig-grid li:hover {background-color: rgba(255,255,255,.9);}
+.cbp-ig-grid li:nth-child(3n-1), .cbp-ig-grid li:nth-child(3n-2), .cbp-ig-grid li:nth-child(3n-3){
+border-right: 1px solid #eaeaea;
+}
+
+/* // Clients Section
+==============================*/
+
+/* Contact Section
+==============================*/
+
+.address{ color:#f5f5f5; font-weight:normal;}
+.phone, a.mail-text{color:#f5f5f5;}
+#contact_form input, #contact_form textarea{ background:rgba(255,255,255,1); box-shadow: 0px 2px 5px rgba(210, 210, 210, 0.4);}
+#contact .circle {background: rgba(255,255,255,.3);}
+
+/* // Contact Section
+==============================*/
+
+/* Footer Section
+==============================*/
+
+.copyright{color: #FCE7E3;}
+
+/* // Footer Section
+==============================*/
+
+
+/*//  Dark Version Changes */
